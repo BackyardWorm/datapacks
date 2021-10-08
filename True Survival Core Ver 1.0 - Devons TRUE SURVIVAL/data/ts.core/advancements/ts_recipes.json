@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "function": "ts.core:grant_recipes"
+    }
+  }
+  
