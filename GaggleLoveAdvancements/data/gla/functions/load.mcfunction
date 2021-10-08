@@ -1,0 +1,1 @@
+tellraw @a [{"text":"Gaggle","color":"#ffbd36"},{"text":"love ","color":"#e170b3"},{"text":"Advancements ","color":"#60c4ef"},{"text":"Added!","color":"green"}]

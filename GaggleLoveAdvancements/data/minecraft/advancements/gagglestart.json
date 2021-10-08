@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dirt_path"
+        },
+        "title": {"text":"Ah Shit, Here We Go Again.","color": "#e170b3"},
+        "description": {"text": "Why are we here, just to suffer? Welcome to GaggleLove Season 2!","color": "#60c4ef"},
+        "announce_to_chat": true
+        
+    },
+
+    "parent": "root",
+
+    "criteria": {
+        "dimension_overworld": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld"
+            }
+        }
+    },
+
+    "rewards": {
+        "function": "gaggle:advanceinfo"
+    }
+
+
+}
