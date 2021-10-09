@@ -1,10 +1,10 @@
 {
     "display": {
-        "title": "Devon's Desk",
+        "title": "Gagglelove",
         "description": "",
         "icon": {
             "item": "minecraft:player_head",
-            "nbt": "{SkullOwner: 'Devon_Huge'}"
+            "nbt": "{SkullOwner: BackyardWorm}"
         },
         "show_toast": false,
         "announce_to_chat": false
