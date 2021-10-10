@@ -1,5 +1,5 @@
 ###Banning Villagers###
-function gagglelove:bannedvillagers/detection
+function gagglelove:bannedvillagers/bannedvillagers
 
 ###Ghast power increase###
 function gagglelove:hardermobs/ghast
