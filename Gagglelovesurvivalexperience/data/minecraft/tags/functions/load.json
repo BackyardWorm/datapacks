@@ -1,5 +1,19 @@
 {
   "values": [
-    "gagglelove:loaded"
-   ] 
+    "gagglelove:load",
+
+    "custom_nether_portals:load",
+    "custom_nether_portals:try_to_trigger",
+    "custom_nether_portals:enable_trigger",
+
+    "armor_statues:load",
+		"armor_statues:tick",
+		"armor_statues:second",
+
+    "unlock_all_recipes:unlock_recipes",
+
+    "wandering_trades:load",
+		"wandering_trades:math/load",
+		"wandering_trades:tick"
+  ]
 }

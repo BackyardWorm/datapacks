@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:egg"
+    },
+    "title": {"text":"Gagglelove","color": "#e170b3"},
+    "frame": "challenge",
+    "description": {"text": "A Gaggle of Lovers, for Geese are our Goosely Muse.","color": "#60c4ef"},
+    "background": "minecraft:textures/block/light_blue_concrete.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "triggers": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+  }
+}

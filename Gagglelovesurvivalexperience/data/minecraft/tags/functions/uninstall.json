@@ -1,0 +1,11 @@
+{
+	"values": [
+    "gagglelove:uninstall",
+
+		"custom_nether_portals:uninstall",
+
+		"unlock_all_recipes:uninstall",
+		
+		"wandering_trades:uninstall"
+	]
+}
