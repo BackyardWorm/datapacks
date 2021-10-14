@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:item_frame,nbt={Facing:1b,Item:{id:"minecraft:grass_block",Count:1b}}] at @s if block ~ ~-1 ~ crafting_table unless entity @e[tag=tsurv.crafter,distance=..1] run function mblockcrafter:create_crafter
+advancement revoke @s only mblockcrafter:mblock
