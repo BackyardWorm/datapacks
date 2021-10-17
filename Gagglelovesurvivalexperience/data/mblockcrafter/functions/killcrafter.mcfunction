@@ -1,6 +1,8 @@
-kill @e[type=minecraft:villager,nbt={CustomName:'{"text":"mblockcrafter"}',Invulnerable:1b,NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b}]
+execute as @s at @s run kill @e[type=minecraft:villager,nbt={CustomName:'{"text":"Mini Block Station"}',Invulnerable:1b,NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b},distance=..0.7]
 kill @s
-kill @e[type=item_frame,nbt={Item:{id:"minecraft:stick",Count:1b},ItemRotation:1b,Facing:2b,Invisible:1b,Invulnerable:1b,Fixed:1b}]
-kill @e[type=item_frame,nbt={Item:{id:"minecraft:stick",Count:1b},ItemRotation:1b,Facing:3b,Invisible:1b,Invulnerable:1b,Fixed:1b}]
-kill @e[type=item_frame,nbt={Item:{id:"minecraft:stick",Count:1b},ItemRotation:1b,Facing:4b,Invisible:1b,Invulnerable:1b,Fixed:1b}]
-kill @e[type=item_frame,nbt={Item:{id:"minecraft:stick",Count:1b},ItemRotation:1b,Facing:5b,Invisible:1b,Invulnerable:1b,Fixed:1b}]
+execute as @s at @s run kill @e[type=item_frame,nbt={Item:{id:"minecraft:stick",Count:1b},ItemRotation:1b,Facing:2b,Invisible:1b,Invulnerable:1b,Fixed:1b},distance=..0.7]
+execute as @s at @s run kill @e[type=item_frame,nbt={Item:{id:"minecraft:stick",Count:1b},ItemRotation:1b,Facing:3b,Invisible:1b,Invulnerable:1b,Fixed:1b},distance=..0.7]
+execute as @s at @s run kill @e[type=item_frame,nbt={Item:{id:"minecraft:stick",Count:1b},ItemRotation:1b,Facing:4b,Invisible:1b,Invulnerable:1b,Fixed:1b},distance=..0.7]
+execute as @s at @s run kill @e[type=item_frame,nbt={Item:{id:"minecraft:stick",Count:1b},ItemRotation:1b,Facing:5b,Invisible:1b,Invulnerable:1b,Fixed:1b},distance=..0.7]
+execute as @s at @s run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:item_frame",Count:1b}}
+execute as @s at @s run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:'{"text":"Globe","color":"#60c4ef"}',Lore:['{"text":"[A Mini World full of Mini Blocks]","color":"#e170b3"}','{"text":"Place in an Item Frame on top ","color":"#ffbd36"}','{"text":"of a Stonecutter to discover ","color":"#ffbd36"}','{"text":"a new Crafting Station","color":"#ffbd36"}']},SkullOwner:{Id:[I;-1121419518,2067529689,-982738485,263170875],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThkYWExZTNlZDk0ZmYzZTMzZTFkNGM2ZTQzZjAyNGM0N2Q3OGE1N2JhNGQzOGU3NWU3YzkyNjQxMDYifX19"}]}}}}}
