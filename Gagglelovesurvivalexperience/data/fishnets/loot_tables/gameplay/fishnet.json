@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": -2,
+          "name": "fishnets:fishing/junk"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "quality": 2,
+          "name": "fishnets:fishing/treasure"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 85,
+          "quality": -1,
+          "name": "fishnets:fishing/fish"
+        }
+      ]
+    }
+  ]
+}

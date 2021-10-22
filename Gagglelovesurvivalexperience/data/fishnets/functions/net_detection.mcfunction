@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:glow_item_frame,nbt={Item:{id:"minecraft:cobweb",Count:1b,tag:{fishnet:1b}}}] at @s if block ~ ~-1 ~ minecraft:barrel if block ~1 ~-1 ~ minecraft:water if block ~ ~-1 ~1 minecraft:water if block ~1 ~-1 ~1 minecraft:water if block ~-1 ~-1 ~-1 minecraft:water if block ~ ~-1 ~-1 minecraft:water if block ~-1 ~-1 ~ minecraft:water if block ~-1 ~-1 ~1 minecraft:water if block ~1 ~-1 ~-1 minecraft:water run function fishnets:net
+schedule function fishnets:net_detection 2000t
