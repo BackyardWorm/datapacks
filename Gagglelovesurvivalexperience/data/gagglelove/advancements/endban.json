@@ -1,0 +1,34 @@
+{
+  "display": {
+      "icon": {
+          "item": "minecraft:air"
+      },
+      "title": "End Ban",
+      "description": "Bans the end",
+      "announce_to_chat": false,
+      "hidden": true,
+      "show_toast": false
+  },
+  "criteria": {
+    "endban": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "end_portal_frame"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "ender_eye"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gagglelove:endban"
+  }
+}
