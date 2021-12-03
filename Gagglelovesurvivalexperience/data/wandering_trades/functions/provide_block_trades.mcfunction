@@ -4,7 +4,7 @@
 
 # Blocks index
 scoreboard players set @s math_input1 1
-scoreboard players set @s math_input2 7
+scoreboard players set @s math_input2 12
 
 # Count trade as added if it is unique, else try again
 scoreboard players add @s wt_trades 0

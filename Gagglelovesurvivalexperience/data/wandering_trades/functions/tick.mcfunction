@@ -8,7 +8,7 @@ execute as @e[type=minecraft:wandering_trader,tag=!trade_items_spawned] at @s ru
 
 # Amount of block trades
 execute as @e[type=minecraft:wandering_trader,tag=!has_new_block_trades] at @s run scoreboard players set @s math_input1 1
-execute as @e[type=minecraft:wandering_trader,tag=!has_new_block_trades] at @s run scoreboard players set @s math_input2 3
+execute as @e[type=minecraft:wandering_trader,tag=!has_new_block_trades] at @s run scoreboard players set @s math_input2 1
 execute as @e[type=minecraft:wandering_trader,tag=!has_new_block_trades] at @s run function wandering_trades:math/random
 execute as @e[type=minecraft:wandering_trader,tag=!has_new_block_trades] at @s run function wandering_trades:provide_block_trades
 

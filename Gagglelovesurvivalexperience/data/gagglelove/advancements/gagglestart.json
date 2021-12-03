@@ -1,11 +1,13 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dirt_path"
+      "item": "minecraft:grass_block"
     },
-    "title": {"text":"Ah Shit, Here We Go Again.","color": "#e170b3"},
+    "title": {"text":"Ah Shit, Here We Go Again."},
     "description": {"text": "Why are we here, just to suffer? Welcome to GaggleLove Season 2!","color": "#60c4ef"},
-    "announce_to_chat": true    
+    "announce_to_chat": true,
+    "hidden": false,
+    "show_toast": true
   },
   "parent": "gagglelove:root",
   "criteria": {
@@ -14,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "gagglelove:advance"
+    "function": "gagglelove:advancements/gagglestart"
   }
 }

@@ -12,3 +12,6 @@ execute as @e[name="Silence Me"] run data merge entity @s {CustomName:'{"text":"
 
 ###Mini Block Crafter###
 function mblockcrafter:detectair
+
+###Stats Detection###
+function gagglelove:advancements/statscore

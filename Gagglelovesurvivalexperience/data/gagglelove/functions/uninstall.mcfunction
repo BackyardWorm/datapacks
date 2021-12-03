@@ -1,3 +1,18 @@
-tellraw @a [{"text":"You have just uninstalled True Survival!","bold":true,"italic":true,"hoverEvent":{"action":"show_text","value":"Better survival, better features, better fun!"}},{"text":"\n \u0020 \u0020 \u0020 ","hoverEvent":{"action":"show_text","value":"Better survival, better features, better fun!"}},{"text":"by","color":"black","hoverEvent":{"action":"show_text","value":"Better survival, better features, better fun!"}},{"text":" ","hoverEvent":{"action":"show_text","value":"Better survival, better features, better fun!"}},{"text":"Devon Huge","color":"dark_blue","hoverEvent":{"action":"show_text","value":"Better survival, better features, better fun!"}},{"text":"\n "}]
+tellraw @a {"text":"Dick. >:("}
 schedule clear fishnets:net_detection
 schedule clear mblockcrafter:particle
+schedule clear wandering_trades:tick
+schedule clear unlock_all_recipes:unlock_recipes
+schedule clear custom_nether_portals:try_to_trigger
+schedule clear custom_nether_portals:enable_trigger
+schedule clear armor_statues:tick
+schedule clear armor_statues:second
+scoreboard objectives remove wt_trades
+scoreboard objectives remove wt_tradeIndex
+scoreboard objectives remove cusNetPor
+scoreboard objectives remove cusNetPor.config
+scoreboard objectives remove cusNetPor.dummy
+scoreboard objectives remove as_trigger
+scoreboard objectives remove as_pose
+scoreboard objectives remove as_angle
+scoreboard objectives remove as_help

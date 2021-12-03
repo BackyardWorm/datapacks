@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_beef"
+    },
+    "title": {"text":"Bovine to the Slaughter"},
+    "description": {"text": "Kill 150 Cows","color": "#cf0000"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "parent": "gagglelove:animals/cow1",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "gagglelove:advancements/statsclear",
+    "experience": 20
+  }
+}

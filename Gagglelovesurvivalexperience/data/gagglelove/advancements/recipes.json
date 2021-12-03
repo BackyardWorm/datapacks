@@ -1,11 +1,11 @@
 {
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:tick"
-      }
-    },
-    "rewards": {
-      "function": "gagglelove:grant_recipes"
+  "parent": "gagglelove:root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
     }
+  },
+  "rewards": {
+    "function": "gagglelove:grant_recipes"
   }
-  
+}

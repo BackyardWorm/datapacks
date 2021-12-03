@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "title": {"text":"Blocks"},
+    "frame": "task",
+    "description": {"text": "Wreck it, Ralph","color": "#61bdff"},
+    "background": "minecraft:textures/block/light_blue_concrete.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "triggers": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "armor_statues:give"
+  }
+}

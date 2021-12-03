@@ -1,0 +1,1 @@
+tellraw @s [{"text": "Press ","color": "#ffbd36"},{"text": "L ","color": "#e170b3"},{"text": "to take a look at your ","color": "#ffbd36"},{"text": "Achievements ","color": "#60c4ef"}]

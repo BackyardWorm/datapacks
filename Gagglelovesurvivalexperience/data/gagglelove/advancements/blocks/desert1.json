@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cactus"
+    },
+    "title": {"text":"When out of Rome, build Cactus Dildos"},
+    "description": {"text": "Get it because Louis built a dildo shaped cactus house in Terraria? You totally get it. Please laugh.","color": "#fac450"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "parent": "gagglelove:blocks/dirt1",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "gagglelove:advancements/statsclear"
+  }
+}

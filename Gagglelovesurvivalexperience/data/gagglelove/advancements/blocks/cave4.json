@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:granite"
+    },
+    "title": {"text":"Take it for Granite"},
+    "description": {"text": "Break 6 Stacks of Granite","color": "#8c8c8c"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "parent": "gagglelove:blocks/cave2",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "gagglelove:advancements/statsclear",
+    "experience": 10
+  }
+}

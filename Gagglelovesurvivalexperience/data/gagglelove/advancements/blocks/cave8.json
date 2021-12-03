@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "title": {"text":"Therapy who?"},
+    "description": {"text": "Break 20 Stacks of Deepslate","color": "#8c8c8c"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "parent": "gagglelove:blocks/cave7",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "gagglelove:advancements/statsclear",
+    "experience": 80
+  }
+}

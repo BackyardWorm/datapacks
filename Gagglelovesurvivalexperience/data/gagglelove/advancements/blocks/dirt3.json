@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:farmland"
+    },
+    "title": {"text":"Fucking Pig"},
+    "description": {"text": "Break 25 Stacks of Stone","color": "#a36733"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "parent": "gagglelove:blocks/dirt2",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "gagglelove:advancements/statsclear",
+    "experience": 20
+  }
+}

@@ -1,14 +1,5 @@
 {
-  "display": {
-      "icon": {
-          "item": "minecraft:air"
-      },
-      "title": "End Ban",
-      "description": "Bans the end",
-      "announce_to_chat": false,
-      "hidden": true,
-      "show_toast": false
-  },
+  "parent": "gagglelove:root",
   "criteria": {
     "endban": {
       "trigger": "minecraft:item_used_on_block",
@@ -29,6 +20,6 @@
     }
   },
   "rewards": {
-    "function": "gagglelove:endban"
+    "function": "gagglelove:advancements/endban"
   }
 }
