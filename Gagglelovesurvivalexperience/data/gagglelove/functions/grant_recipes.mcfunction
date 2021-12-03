@@ -5,3 +5,11 @@ recipe give @s gagglelove:tooltorch3
 recipe give @s gagglelove:tooltorch4
 recipe give @s gagglelove:tooltorch5
 recipe give @s gagglelove:dispenser
+recipe give @s gagglelove:blasting_glass
+recipe give @s gagglelove:blasting_stone
+recipe give @s gagglelove:blasting_smooth_sandstone
+recipe give @s gagglelove:blasting_red_smooth_sandstone
+recipe give @s gagglelove:blasting_smooth_stone
+recipe give @s gagglelove:blasting_smooth_quartz
+recipe give @s gagglelove:blasting_smooth_basalt
+recipe give @s gagglelove:blasting_deepslate
