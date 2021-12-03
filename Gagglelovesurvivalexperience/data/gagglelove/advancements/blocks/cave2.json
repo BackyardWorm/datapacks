@@ -7,7 +7,7 @@
     "description": {"text": "Break 25 Stacks of Stone","color": "#8c8c8c"},
     "announce_to_chat": true,
     "show_toast": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "gagglelove:blocks/cave1",
   "criteria": {

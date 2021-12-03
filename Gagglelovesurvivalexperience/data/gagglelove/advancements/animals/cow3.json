@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cactus"
+      "item": "minecraft:book"
     },
-    "title": {"text":"When out of Rome, build Cactus Dildos"},
-    "description": {"text": "Get it because Louis built a dildo shaped cactus house in Terraria? You totally get it. Please laugh.","color": "#fac450"},
+    "title": {"text":"Fucking Nerd"},
+    "description": {"text": "Craft 64+ Books","color": "#753f10"},
     "announce_to_chat": true,
     "show_toast": true,
-    "hidden": true
+    "hidden": false
   },
-  "parent": "gagglelove:blocks/root",
+  "parent": "gagglelove:animals/cow2",
   "criteria": {
     "trigger":{
       "trigger": "minecraft:inventory_changed",
@@ -17,11 +17,11 @@
         "items": [
           {
             "items": [
-              "minecraft:cactus"
+              "minecraft:book"
             ],
             "count": {
               "min": 1,
-              "max": 99999
+              "max": 9999
             }
           }
         ]

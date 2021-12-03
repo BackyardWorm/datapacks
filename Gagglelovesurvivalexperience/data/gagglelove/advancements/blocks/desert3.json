@@ -7,9 +7,9 @@
     "description": {"text": "Break 15 Stacks of Red Sand","color": "#fac450"},
     "announce_to_chat": true,
     "show_toast": true,
-    "hidden": true
+    "hidden": false
   },
-  "parent": "gagglelove:blocks/desert1",
+  "parent": "gagglelove:blocks/desert2",
   "criteria": {
     "trigger":{
       "trigger": "minecraft:impossible"

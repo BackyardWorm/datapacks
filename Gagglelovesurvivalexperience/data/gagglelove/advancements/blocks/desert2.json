@@ -7,7 +7,7 @@
     "description": {"text": "Break 25 Stacks of Sand","color": "#fac450"},
     "announce_to_chat": true,
     "show_toast": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "gagglelove:blocks/desert1",
   "criteria": {

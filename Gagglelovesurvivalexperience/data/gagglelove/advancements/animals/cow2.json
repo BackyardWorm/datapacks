@@ -4,10 +4,10 @@
       "item": "minecraft:cooked_beef"
     },
     "title": {"text":"Bovine to the Slaughter"},
-    "description": {"text": "Kill 150 Cows","color": "#cf0000"},
+    "description": {"text": "Kill 150 Cows","color": "#753f10"},
     "announce_to_chat": true,
     "show_toast": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "gagglelove:animals/cow1",
   "criteria": {

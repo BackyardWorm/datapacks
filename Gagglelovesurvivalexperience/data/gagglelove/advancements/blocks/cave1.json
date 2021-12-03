@@ -9,7 +9,7 @@
     "show_toast": true,
     "hidden": true
   },
-  "parent": "gagglelove:blocks/dirt1",
+  "parent": "gagglelove:blocks/root",
   "criteria": {
     "trigger":{
       "trigger": "minecraft:impossible"

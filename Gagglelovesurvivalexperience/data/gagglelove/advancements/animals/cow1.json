@@ -4,7 +4,7 @@
       "item": "minecraft:beef"
     },
     "title": {"text":"Sexist"},
-    "description": {"text": "Kill 32 Cows","color": "#cf0000"},
+    "description": {"text": "Kill 32 Cows","color": "#753f10"},
     "announce_to_chat": true,
     "show_toast": true,
     "hidden": true

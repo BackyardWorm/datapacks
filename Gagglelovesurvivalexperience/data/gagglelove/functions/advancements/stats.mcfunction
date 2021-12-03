@@ -4,7 +4,6 @@ scoreboard objectives add grass mined:grass_block
 scoreboard objectives add dirtDug dummy
 
 ###Desert###
-scoreboard objectives add cactus mined:cactus
 scoreboard objectives add sand mined:sand
 scoreboard objectives add redsand mined:red_sand
 
