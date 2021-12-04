@@ -3,7 +3,7 @@
     "icon": {
       "item": "minecraft:cobbled_deepslate"
     },
-    "title": {"text":"Sub-Terraian"},
+    "title": {"text":"Sub-Terrarian"},
     "description": {"text": "Break 2 Stacks of Deepslate","color": "#8c8c8c"},
     "announce_to_chat": true,
     "show_toast": true,
