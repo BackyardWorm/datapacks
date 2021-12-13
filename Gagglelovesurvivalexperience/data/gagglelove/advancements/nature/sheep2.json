@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_bed"
+    },
+    "title": {"text":"Rest easy, Sheep Shagger"},
+    "description": {"text": "Take pride in being a Kiwi and yell 'I'M A SHEEP SHAGGER'","color": "#bfbfbf"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "parent": "gagglelove:nature/sheep1",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "red_bed",
+              "cyan_bed",
+              "gray_bed",
+              "lime_bed",
+              "pink_bed",
+              "blue_bed",
+              "green_bed",
+              "white_bed",
+              "black_bed",
+              "brown_bed",
+              "orange_bed",
+              "purple_bed",
+              "yellow_bed",
+              "magenta_bed"
+            ],
+            "count": {
+              "min": 1,
+              "max": 2000
+            }
+          }
+        ]
+      }
+    }
+  }
+}

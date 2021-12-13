@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sugar"
+    },
+    "title": {"text":"Strawberry Fields Forever"},
+    "description": {"text": "Nothing is real","color": "#337521"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "gagglelove:nature/drugs1",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar"
+            ],
+            "count": {
+              "min": 1,
+              "max": 2000
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald_block"
+    },
+    "title": {"text":"War Criminal"},
+    "description": {"text": "Reach Level 50","color": "#97ff7a"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "parent": "gagglelove:enchanting/xp2",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "level": {
+              "min": 50
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gagglelove:advancements/xp3"
+  }
+}

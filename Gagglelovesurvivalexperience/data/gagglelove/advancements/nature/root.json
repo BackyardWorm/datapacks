@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:egg"
+    },
+    "title": {"text":"Nature"},
+    "frame": "task",
+    "description": {"text": "It's The Circle of Life","color": "#d12c1e"},
+    "background": "minecraft:textures/block/red_concrete.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "triggers": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:poppy"
+    },
+    "title": {"text":"Yah like Jazz?","italic": true},
+    "description": {"text": "Bzzzzzzzzzzzzzzzzzzzzzzzzzz","color": "#ffcc00"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "parent": "gagglelove:nature/root",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

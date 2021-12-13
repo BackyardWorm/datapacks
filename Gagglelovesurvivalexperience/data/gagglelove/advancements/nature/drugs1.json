@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sugar_cane"
+    },
+    "title": {"text":"Into Fire"},
+    "description": {"text": "Hunger 100","color": "#337521"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "gagglelove:nature/root",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar_cane"
+            ],
+            "count": {
+              "min": 1,
+              "max": 2000
+            }
+          }
+        ]
+      }
+    }
+  }
+}

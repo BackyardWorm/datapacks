@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:axolotl_bucket"
+    },
+    "title": {"text":"Mudkeep that Mudkip"},
+    "description": {"text": "Hunger 100","color": "#61bdff"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "gagglelove:nature/bee",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "axolotl_bucket"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gagglelove:advancements/axolotl1"
+  }
+}

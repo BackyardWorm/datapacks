@@ -1,10 +1,10 @@
 {
   "criteria": {
     "triggers": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:tick"
     }
   },
   "rewards": {
-    "function": "gagglelove:advancements/gagglestart"
+    "function": "armor_statues:give"
   }
 }

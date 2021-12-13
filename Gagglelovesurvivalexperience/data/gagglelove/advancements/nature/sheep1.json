@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:white_wool"
+    },
+    "title": {"text":"It's either Kill or be Killed"},
+    "description": {"text": "Obtain 3 of the same wool colour","color": "#bfbfbf"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "parent": "gagglelove:nature/root",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "white_wool",
+              "red_wool",
+              "blue_wool",
+              "cyan_wool",
+              "gray_wool",
+              "lime_wool",
+              "pink_wool",
+              "black_wool",
+              "brown_wool",
+              "green_wool",
+              "white_wool",
+              "orange_wool",
+              "purple_wool",
+              "yellow_wool",
+              "magenta_wool",
+              "light_blue_wool",
+              "light_gray_wool"
+            ],
+            "count": {
+              "min": 3,
+              "max": 2000
+            }
+          }
+        ]
+      }
+    }
+  }
+}

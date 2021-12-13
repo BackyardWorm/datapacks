@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": {"text":"Everybody Do The Flop!"},
+    "description": {"text": "Kill Yourself 75 Times","color": "#61bdff"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "gagglelove:nature/deaths1",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "gagglelove:advancements/statsclear"
+  }
+}

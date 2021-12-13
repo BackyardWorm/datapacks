@@ -1,0 +1,1 @@
+give @s axolotl_bucket{Variant:4} 1

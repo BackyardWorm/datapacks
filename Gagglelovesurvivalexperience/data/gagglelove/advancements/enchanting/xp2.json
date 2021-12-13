@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": {"text":"Terrorist"},
+    "description": {"text": "Reach Level 40","color": "#97ff7a"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "parent": "gagglelove:enchanting/xp1",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "level": {
+              "min": 40
+            }
+          }
+        }
+      }
+    }
+  }
+}

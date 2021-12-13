@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:beef"
+    },
+    "title": {"text":"Sexist"},
+    "description": {"text": "Kill 32 Cows","color": "#753f10"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "parent": "gagglelove:nature/root",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "gagglelove:advancements/statsclear"
+  }
+}

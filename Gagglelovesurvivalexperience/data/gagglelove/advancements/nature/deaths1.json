@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "title": {"text":"Bo Would Be Proud"},
+    "description": {"text": "Kill Yourself 25 Times","color": "#61bdff"},
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "gagglelove:nature/root",
+  "criteria": {
+    "trigger":{
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "gagglelove:advancements/statsclear"
+  }
+}
