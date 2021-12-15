@@ -8,7 +8,7 @@
     "description": {"text": "You got the whole world in your hands.","color": "#61bdff"},
     "announce_to_chat": true,
     "show_toast": true,
-    "hidden": false
+    "hidden": true
   },
   "parent": "gagglelove:nature/axolotl1",
   "criteria": {

@@ -7,7 +7,7 @@
     "description": {"text": "Reach Level 50","color": "#97ff7a"},
     "announce_to_chat": true,
     "show_toast": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "gagglelove:enchanting/xp2",
   "criteria": {

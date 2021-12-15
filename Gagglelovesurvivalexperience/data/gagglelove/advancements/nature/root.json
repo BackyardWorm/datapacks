@@ -8,7 +8,8 @@
     "description": {"text": "It's The Circle of Life","color": "#d12c1e"},
     "background": "minecraft:textures/block/red_concrete.png",
     "show_toast": false,
-    "announce_to_chat": false
+    "announce_to_chat": false,
+    "hidden": false
   },
   "criteria": {
     "triggers": {

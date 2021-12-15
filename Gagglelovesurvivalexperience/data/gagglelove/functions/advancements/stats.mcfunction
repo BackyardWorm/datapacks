@@ -29,3 +29,4 @@ scoreboard objectives modify playerHealth displayname {"text":"❤","color":"red
 scoreboard objectives setdisplay belowName playerHealth
 scoreboard objectives add playTime dummy "Play Minutes"
 scoreboard objectives add playTick minecraft.custom:minecraft.play_time "Play Ticks"
+scoreboard objectives add FTP dummy

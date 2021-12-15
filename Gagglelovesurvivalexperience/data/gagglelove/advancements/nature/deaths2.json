@@ -7,7 +7,7 @@
     "description": {"text": "Kill Yourself 75 Times","color": "#61bdff"},
     "announce_to_chat": true,
     "show_toast": true,
-    "hidden": false
+    "hidden": true
   },
   "parent": "gagglelove:nature/deaths1",
   "criteria": {

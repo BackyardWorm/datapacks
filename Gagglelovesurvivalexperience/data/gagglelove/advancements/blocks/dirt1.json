@@ -7,7 +7,7 @@
     "description": {"text": "Break 3 Dirt Blocks","color": "#a36733"},
     "announce_to_chat": true,
     "show_toast": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "gagglelove:blocks/root",
   "criteria": {

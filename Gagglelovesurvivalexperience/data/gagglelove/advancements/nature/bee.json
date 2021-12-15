@@ -7,7 +7,7 @@
     "description": {"text": "Bzzzzzzzzzzzzzzzzzzzzzzzzzz","color": "#ffcc00"},
     "announce_to_chat": true,
     "show_toast": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "gagglelove:nature/root",
   "criteria": {

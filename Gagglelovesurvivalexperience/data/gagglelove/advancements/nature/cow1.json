@@ -7,7 +7,7 @@
     "description": {"text": "Kill 32 Cows","color": "#753f10"},
     "announce_to_chat": true,
     "show_toast": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "gagglelove:nature/root",
   "criteria": {

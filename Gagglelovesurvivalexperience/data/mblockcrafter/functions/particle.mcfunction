@@ -1,2 +1,2 @@
-execute as @e[type=minecraft:villager,nbt={CustomName:'{"text":"Mini Block Station"}',Invulnerable:1b,NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b}] at @s run particle minecraft:end_rod ~ ~1.2 ~ 0.2 0.15 0.2 0 1 force
+execute as @e[type=minecraft:villager,nbt={CustomName:'{"text":"Mini Block Station"}',Invulnerable:1b,NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b}] at @s run particle minecraft:end_rod ~ ~1.2 ~ 0.2 0.15 0.2 0 1 normal
 schedule function mblockcrafter:particle 0.7s

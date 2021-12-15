@@ -8,7 +8,8 @@
     "description": {"text": "Grind your heart out baby!","color": "#cfffc2"},
     "background": "minecraft:textures/block/deepslate_emerald_ore.png",
     "show_toast": false,
-    "announce_to_chat": false
+    "announce_to_chat": false,
+    "hidden": false
   },
   "criteria": {
     "triggers": {

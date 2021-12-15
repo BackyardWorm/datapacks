@@ -7,7 +7,7 @@
     "description": {"text": "Obtain 3 of the same wool colour","color": "#bfbfbf"},
     "announce_to_chat": true,
     "show_toast": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "gagglelove:nature/root",
   "criteria": {
