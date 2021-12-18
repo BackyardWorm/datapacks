@@ -1,0 +1,11 @@
+{
+  "parent": "gagglelove:root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:slept_in_bed"
+    }
+  },
+  "rewards": {
+    "function": "gagglelove:sleep"
+  }
+}

@@ -15,3 +15,6 @@ function mblockcrafter:detectair
 
 ###Stats Detection###
 function gagglelove:advancements/statscore
+
+###Color Triggers###
+function colored_names:color_triggers

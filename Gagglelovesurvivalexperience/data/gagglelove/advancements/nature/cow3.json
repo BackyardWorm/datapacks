@@ -20,7 +20,7 @@
               "minecraft:book"
             ],
             "count": {
-              "min": 1,
+              "min": 64,
               "max": 2000
             }
           }
